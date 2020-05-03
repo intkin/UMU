@@ -4,7 +4,8 @@ telegram - @initkin
 
 
 Для запуска:
-> java -jar L1.jar [phone number] 
+> java -jar L1.jar [phone number]
+
 По умолчанию - запуск тарификации для номера 968247916, соответствующего варианту №6
 
 Файл с данными CDR:
