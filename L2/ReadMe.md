@@ -12,11 +12,11 @@
 
 Для построения графика используется gnuplot. Данные для построения графика записываются в файл plot.txt в процессе выполнения программы.
 Набор команд для gnuplot для построеиня графика:
-gnuplot> set xdata time
-gnuplot> set timefmt "%Y-%m-%d %H:%M:%S"
-gnuplot> set xtics 600
-gnuplot> set ylabel "bytes"
-gnuplot> plot 'plot.txt'  using 1:3 with lines
+>gnuplot> set xdata time
+>gnuplot> set timefmt "%Y-%m-%d %H:%M:%S"
+>gnuplot> set xtics 600
+>gnuplot> set ylabel "bytes"
+>gnuplot> plot 'plot.txt'  using 1:3 with lines
 
 Образец графика находится в файле Graph.png
 
